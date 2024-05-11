@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/jiashu/list",
+    "pages/jiashu/add-or-update",
+    "pages/jiashu/detail",
+    "pages/zhiyuanzhe/list",
+    "pages/zhiyuanzhe/add-or-update",
+    "pages/zhiyuanzhe/detail",
+    "pages/gonganbumen/list",
+    "pages/gonganbumen/add-or-update",
+    "pages/gonganbumen/detail",
+    "pages/zoushilaoren/list",
+    "pages/zoushilaoren/add-or-update",
+    "pages/zoushilaoren/detail",
+    "pages/anjianxinxi/list",
+    "pages/anjianxinxi/add-or-update",
+    "pages/anjianxinxi/detail",
+    "pages/pingjiajianyi/list",
+    "pages/pingjiajianyi/add-or-update",
+    "pages/pingjiajianyi/detail",
+    "pages/zhiyuanzhexiansuo/list",
+    "pages/zhiyuanzhexiansuo/add-or-update",
+    "pages/zhiyuanzhexiansuo/detail",
+    "pages/gonganxiansuo/list",
+    "pages/gonganxiansuo/add-or-update",
+    "pages/gonganxiansuo/detail",
+    "pages/xiaoxitixing/list",
+    "pages/xiaoxitixing/add-or-update",
+    "pages/xiaoxitixing/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信小程序的走失人员的报备平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#78DAFF",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/anjianxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "案件信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
